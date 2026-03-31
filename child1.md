@@ -1,6 +1,7 @@
 ---
 title: First Test child
 layout: default
+nav_order: 1
 ---
 
 Testing this page to see if it works properly. Linking to Home
