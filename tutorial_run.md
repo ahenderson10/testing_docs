@@ -18,7 +18,7 @@ The VectorBlox SDK comes with a set of public models that are used to demonstrat
     bash yolov5n_512x288.sh
     ```
     
-<details>
+<details markdown="block">
 
 <summary>Breakdown of yolov5n_512x288.sh Shell Script</summary>
 
