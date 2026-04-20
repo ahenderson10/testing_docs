@@ -1,0 +1,51 @@
+// VectorBlox custom site-wide styles
+
+// H1 and H2 get a primary-red bottom border
+h1 {
+  border-bottom: 3px solid #E31B23;
+  padding-bottom: 0.25rem;
+}
+
+h2 {
+  border-bottom: 1px solid #E31B23;
+  padding-bottom: 0.15rem;
+}
+
+// Zebra striping on tables
+table tbody tr:nth-child(even) {
+  background-color: #F5F7FA;
+}
+
+// Callout / admonition left border colors
+.note {
+  border-left: 4px solid #00A3E0;
+  background-color: #EAF6FD;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+}
+
+.warning {
+  border-left: 4px solid #E31B23;
+  background-color: #FDF1F2;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+}
+
+.important {
+  border-left: 4px solid #253746;
+  background-color: #EEF1F4;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+}
+
+.tip {
+  border-left: 4px solid #2DA44E;
+  background-color: #EAFBEE;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+}
+
+// Logo sizing in the site header
+.site-logo img {
+  max-height: 40px;
+}

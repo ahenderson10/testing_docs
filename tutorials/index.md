@@ -1,7 +1,7 @@
 ---
 title: Tutorials
 layout: default
-nav_order: 4
+nav_order: 6
 has_children: true
 permalink: /tutorials/
 ---
@@ -29,7 +29,7 @@ Tutorials are grouped by model source. Run one with:
 | [Walkthrough: yolov5n]({% link tutorials/walkthrough-yolov5n.md %}) | Line-by-line reading of the `yolov5n_512x288` script |
 | [Deploying a Tutorial Binary]({% link tutorials/deploy-to-soc.md %}) | Copy and run a compiled binary on the PolarFire SoC Video Kit |
 | [Model Index by Source]({% link tutorials/model-index.md %}) | Directory of every tutorial grouped by source framework |
-| [Metrics]({% link tutorials_metrics.md %}) | Runtime and accuracy for every included tutorial, split by compression mode |
+| [Metrics]({% link tutorials/model-index.md %}#tutorial-metrics) | Runtime and accuracy for every included tutorial, split by compression mode |
 
 ---
 

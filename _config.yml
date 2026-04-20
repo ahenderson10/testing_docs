@@ -4,6 +4,23 @@ theme: just-the-docs
 
 url: https://lianvictor.github.io/testing_docs/
 
+color_scheme: vectorblox
+
+callouts_level: quiet
+callouts:
+  note:
+    title: Note
+    color: blue
+  warning:
+    title: Warning
+    color: red
+  important:
+    title: Important
+    color: purple
+  tip:
+    title: Tip
+    color: green
+
 aux_links:
   "VectorBlox SDK": https://github.com/Microchip-Vectorblox/VectorBlox-SDK
   "Compression Library": https://github.com/Microchip-Vectorblox/VectorBlox-Compression

@@ -23,8 +23,8 @@ VectorBlox is an SDK from Microchip for compiling and running quantized TFLite I
 | A new user who wants a model running on the simulator | [Getting Started]({% link getting-started/index.md %}) |
 | A model developer tuning conversion, quantization, or postprocessing | [SDK Overview]({% link sdk/index.md %}) |
 | Trying a pretrained tutorial | [Tutorials]({% link tutorials/index.md %}) |
-| Compressing a PyTorch model | [Compression Library]({% link compression_lib.md %}) |
-| Bringing up a PolarFire (SoC) Video Kit | [Hardware]({% link hw_setup.md %}) |
+| Compressing a PyTorch model | [Compression Library]({% link compression/index.md %}) |
+| Bringing up a PolarFire (SoC) Video Kit | [Hardware]({% link hardware/index.md %}) |
 
 ## Source repositories
 
