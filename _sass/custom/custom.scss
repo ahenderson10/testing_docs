@@ -97,6 +97,15 @@ table tbody tr:nth-child(even) {
   padding-left: 2.25rem;
 }
 
+// Force all nav dropdowns open on page load (override the theme's
+// `display: none` on nested `.nav-list` and rotate expander icons as if active).
+.nav-list .nav-list-item > .nav-list {
+  display: block !important;
+}
+.nav-list .nav-list-item > .nav-list-expander svg {
+  transform: rotate(-90deg);
+}
+
 // Collapsible metric tables — give <details>/<summary> a clear, clickable
 // look and breathing room around the inner table.
 details {
@@ -134,7 +143,9 @@ details > table {
 }
 
 // Pin the sidebar to the left edge at a fixed width, and let the main
-// content stretch to fill the remaining viewport width.
+// content stretch to fill the remaining viewport width. The `.side-bar + .main`
+// selector matches the theme's lg-breakpoint rule that would otherwise expand
+// margin-left on wide screens and leave a gap between nav and content.
 @media (min-width: 800px) {
   .side-bar {
     position: fixed;
@@ -144,8 +155,10 @@ details > table {
     width: 264px;
     flex: 0 0 264px;
   }
+  .side-bar + .main,
   .main {
     margin-left: 264px;
+    margin-right: 0;
     max-width: none;
   }
   .main-content-wrap {
