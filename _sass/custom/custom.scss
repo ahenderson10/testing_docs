@@ -65,17 +65,27 @@ table tbody tr:nth-child(even) {
   background: none !important;
 }
 
-// Tighten sidebar padding so links sit closer to the left edge.
+// Tighten sidebar padding so links sit flush against the left edge.
 .side-bar {
+  padding-left: 0;
+  padding-right: 0;
+}
+.site-header {
+  padding-left: 0.5rem;
+}
+.nav-list .nav-list-item .nav-list-link {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-.site-header {
-  padding-left: 1rem;
+// Just-the-Docs nests child lists with extra left padding; flatten it.
+.nav-list .nav-list-item {
+  padding-left: 0;
 }
-.nav-list .nav-list-item .nav-list-link {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.site-nav,
+.site-header,
+.site-footer {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 // Collapsible metric tables — give <details>/<summary> a clear, clickable
