@@ -1,5 +1,17 @@
-title: Testing Docs
-description: Starter set for testing documentation
+title: VectorBlox Documentation
+description: Documentation for the Microchip VectorBlox SDK, Compression Library, and PolarFire Video Kit demos.
 theme: just-the-docs
 
 url: https://lianvictor.github.io/testing_docs/
+
+aux_links:
+  "VectorBlox SDK": https://github.com/Microchip-Vectorblox/VectorBlox-SDK
+  "Compression Library": https://github.com/Microchip-Vectorblox/VectorBlox-Compression
+  "SoC Video Kit Demo": https://github.com/Microchip-Vectorblox/VectorBlox-SoC-Video-Kit-Demo
+  "Video Kit Demo": https://github.com/Microchip-Vectorblox/VectorBlox-Video-Kit-Demo
+
+aux_links_new_tab: true
+
+heading_anchors: true
+
+search_enabled: true
