@@ -133,6 +133,29 @@ details > table {
   margin: 0.25rem 0.9rem 0.9rem;
 }
 
+// Pin the sidebar to the left edge at a fixed width, and let the main
+// content stretch to fill the remaining viewport width.
+@media (min-width: 800px) {
+  .side-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 264px;
+    flex: 0 0 264px;
+  }
+  .main {
+    margin-left: 264px;
+    max-width: none;
+  }
+  .main-content-wrap {
+    max-width: none;
+  }
+  .main-content {
+    max-width: none;
+  }
+}
+
 // Diagram images in hardware pages: keep them readable and centered,
 // and scale down on narrow screens.
 .main-content img {
