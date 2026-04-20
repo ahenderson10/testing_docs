@@ -7,7 +7,7 @@ nav_order: 2
 
 # Deploying a Tutorial Binary to the PolarFire SoC Video Kit
 
-Before continuing, make sure the hardware is set up — see [Hardware]({% link hardware/index.md %}) for the PolarFire SoC Video Kit quickstart, including how to find the board's IP address.
+Before continuing, make sure the hardware is set up — see [Hardware]({% link hw_setup.md %}) for the PolarFire SoC Video Kit quickstart, including how to find the board's IP address.
 
 This page uses `yolov5n_512x288_V1000_ncomp.vnnx` from the [YOLOv5n walkthrough]({% link tutorials/walkthrough-yolov5n.md %}) as the running example. Replace it with whatever binary you produced.
 

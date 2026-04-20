@@ -7,7 +7,7 @@ nav_order: 3
 
 # Model Index by Source
 
-Tutorials in the SDK are grouped by their upstream source framework or model zoo. The table below lists every tutorial source directory and the kinds of models it contains. For per-model runtime and accuracy, see [Metrics]({% link tutorials/metrics.md %}).
+Tutorials in the SDK are grouped by their upstream source framework or model zoo. The table below lists every tutorial source directory and the kinds of models it contains. For per-model runtime and accuracy, see [Metrics]({% link tutorials_metrics.md %}).
 
 | Source folder | Representative models |
 |---|---|
@@ -32,4 +32,4 @@ cd $VBX_SDK/tutorials/<SOURCE>/<MODEL>
 bash <MODEL>.sh
 ```
 
-For the complete list of SDK tutorials with direct links and per-model metrics, see [Metrics]({% link tutorials/metrics.md %}) or browse [`tutorials/` on GitHub](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/tree/master/tutorials).
+For the complete list of SDK tutorials with direct links and per-model metrics, see [Metrics]({% link tutorials_metrics.md %}) or browse [`tutorials/` on GitHub](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/tree/master/tutorials).
