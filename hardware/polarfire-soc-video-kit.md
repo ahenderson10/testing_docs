@@ -28,7 +28,8 @@ The PolarFire SoC Video Kit runs the VectorBlox demo under full **Yocto Linux** 
 
 | Page | Contents |
 |---|---|
-| [Quickstart]({% link hardware/polarfire-soc-video-kit/quickstart.md %}) | Jumper settings, cabling, FlashPro programming, and the quickstart script |
+| [Quickstart]({% link hardware/polarfire-soc-video-kit/quickstart.md %}) | Cabling, FlashPro programming, and the quickstart script |
+| [Jumper Settings]({% link hardware/polarfire-soc-video-kit/jumper-settings.md %}) | Required jumper positions with a labeled board diagram |
 | [Build with Libero]({% link hardware/polarfire-soc-video-kit/build-libero.md %}) | Licensing and the Tcl build flow for regenerating the design from source |
 | [Flash Yocto Linux]({% link hardware/polarfire-soc-video-kit/flash-yocto.md %}) | Updating the eMMC with a new Yocto image via USBImager and the HSS |
 | [MIPI Camera Bring-Up]({% link hardware/polarfire-soc-video-kit/mipi-camera.md %}) | Setting up and troubleshooting the 4K MIPI camera daughter card |

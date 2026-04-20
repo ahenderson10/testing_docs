@@ -3,7 +3,7 @@ title: MIPI Camera Bring-Up
 layout: default
 parent: PolarFire SoC Video Kit
 grand_parent: Hardware
-nav_order: 4
+nav_order: 5
 ---
 
 # MIPI Camera Bring-Up

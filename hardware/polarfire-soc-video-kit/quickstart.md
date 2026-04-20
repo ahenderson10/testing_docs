@@ -28,16 +28,16 @@ This guide takes you from an unpowered board to a running VectorBlox demo in fiv
 
 ## Step 1: Jumper configuration
 
-The board ships with jumpers in the correct positions. If you have changed them or are troubleshooting, confirm the following:
+The board ships with jumpers in the correct positions. If you have changed them or are troubleshooting, confirm the required settings on the [Jumper Settings]({% link hardware/polarfire-soc-video-kit/jumper-settings.md %}) page.
 
 {: .important }
 Jumpers **J16** and **J35** must **not** be open. Both must be connected to pins 2 and 3.
 
-For a complete jumper map refer to the [VectorBlox v3.0 PolarFire SoC Video Kit Demo Guide PDF](https://github.com/Microchip-Vectorblox/VectorBlox-SoC-Video-Kit-Demo/blob/main/docs/VectorBlox_PolarFire_SoC_Video_Kit_Demo_Guide.pdf).
-
 ## Step 2: Hardware connections
 
-Connect the following before powering on:
+Connect the following before powering on. Refer to the labeled board diagram below for port locations.
+
+![PolarFire SoC Video Kit connections]({{ "/assets/images/hardware-connections.png" | relative_url }})
 
 | Port | Type | Description |
 |---|---|---|

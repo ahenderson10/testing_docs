@@ -3,7 +3,7 @@ title: Flash Yocto Linux
 layout: default
 parent: PolarFire SoC Video Kit
 grand_parent: Hardware
-nav_order: 3
+nav_order: 4
 ---
 
 # Flashing Yocto Linux to the PolarFire SoC Video Kit

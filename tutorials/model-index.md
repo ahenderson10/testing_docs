@@ -40,7 +40,7 @@ For a browsable list of every tutorial script, see [`tutorials/` on GitHub](http
 
 Runtime in milliseconds (ms) measured on the [PolarFire SoC Video Kit]({% link hardware/polarfire-soc-video-kit.md %}). Accuracy measured over 1,000 samples. TFLITE and VNNX columns show metric values (Top-1 accuracy or mAP50–95 as indicated).
 
-<details>
+<details markdown="block">
 <summary>No Compression — runtime and accuracy</summary>
 
 | Source | Tutorial | Input (H,W,C) | Runtime (ms) | Task | Metric | TFLITE | VNNX |
@@ -151,7 +151,7 @@ Runtime in milliseconds (ms) measured on the [PolarFire SoC Video Kit]({% link h
 
 </details>
 
-<details>
+<details markdown="block">
 <summary>Structured compression (COMP) — runtime and accuracy</summary>
 
 | Source | Tutorial | Input (H,W,C) | Runtime (ms) | Task | Metric | TFLITE | VNNX |
@@ -161,7 +161,7 @@ Runtime in milliseconds (ms) measured on the [PolarFire SoC Video Kit]({% link h
 
 </details>
 
-<details>
+<details markdown="block">
 <summary>Unstructured compression (UCOMP) — runtime and accuracy</summary>
 
 | Source | Tutorial | Input (H,W,C) | Runtime (ms) | Task | Metric | TFLITE |

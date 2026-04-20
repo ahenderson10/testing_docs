@@ -49,3 +49,80 @@ table tbody tr:nth-child(even) {
 .site-logo img {
   max-height: 40px;
 }
+
+// Site title is invisible by default because $body-heading-color matches
+// the dark sidebar background. Force a light color so it shows.
+.site-title,
+.site-title:hover {
+  color: #ffffff;
+}
+
+// Remove the fade/gradient that Just-the-Docs overlays at the bottom of
+// the sidebar header — it looks muddy on the dark slate background.
+.site-header::after,
+.site-nav::before {
+  display: none !important;
+  background: none !important;
+}
+
+// Tighten sidebar padding so links sit closer to the left edge.
+.side-bar {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.site-header {
+  padding-left: 1rem;
+}
+.nav-list .nav-list-item .nav-list-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+// Collapsible metric tables — give <details>/<summary> a clear, clickable
+// look and breathing room around the inner table.
+details {
+  margin: 1rem 0;
+  border: 1px solid #D0D7DE;
+  border-radius: 4px;
+  background-color: #F5F7FA;
+}
+details > summary {
+  cursor: pointer;
+  padding: 0.6rem 0.9rem;
+  font-weight: 600;
+  color: #253746;
+  list-style: none;
+  user-select: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details > summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: #E31B23;
+  transition: transform 0.15s ease;
+}
+details[open] > summary::before {
+  transform: rotate(90deg);
+}
+details > summary + * {
+  margin-top: 0.25rem;
+}
+details > table {
+  margin: 0.25rem 0.9rem 0.9rem;
+}
+
+// Diagram images in hardware pages: keep them readable and centered,
+// and scale down on narrow screens.
+.main-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border: 1px solid #D0D7DE;
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding: 0.5rem;
+}

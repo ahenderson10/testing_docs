@@ -3,7 +3,7 @@ title: Build with Libero
 layout: default
 parent: PolarFire SoC Video Kit
 grand_parent: Hardware
-nav_order: 2
+nav_order: 3
 ---
 
 # Building the PolarFire SoC Video Kit Design with Libero
