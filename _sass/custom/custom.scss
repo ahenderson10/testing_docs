@@ -65,27 +65,36 @@ table tbody tr:nth-child(even) {
   background: none !important;
 }
 
-// Tighten sidebar padding so links sit flush against the left edge.
+// Tighten sidebar padding and flatten nested indentation so link text
+// has room to breathe within the fixed-width sidebar.
 .side-bar {
   padding-left: 0;
   padding-right: 0;
 }
-.site-header {
-  padding-left: 0.5rem;
-}
-.nav-list .nav-list-item .nav-list-link {
-  padding-left: 0.5rem;
+.site-header,
+.site-footer {
+  padding-left: 0.75rem;
   padding-right: 0.5rem;
 }
-// Just-the-Docs nests child lists with extra left padding; flatten it.
+.site-nav {
+  padding-left: 0;
+  padding-right: 0;
+}
 .nav-list .nav-list-item {
   padding-left: 0;
 }
-.site-nav,
-.site-header,
-.site-footer {
-  padding-left: 0;
-  padding-right: 0;
+// Top-level links: small, consistent left pad.
+.nav-list .nav-list-item > .nav-list-link {
+  padding-left: 0.75rem;
+  padding-right: 0.5rem;
+}
+// Nested levels: override Just-the-Docs' compounding indent so deeper
+// links don't get pushed halfway across the sidebar.
+.nav-list .nav-list .nav-list-item > .nav-list-link {
+  padding-left: 1.5rem;
+}
+.nav-list .nav-list .nav-list .nav-list-item > .nav-list-link {
+  padding-left: 2.25rem;
 }
 
 // Collapsible metric tables — give <details>/<summary> a clear, clickable
